@@ -117,7 +117,7 @@ class ProfileScreenState extends State<ProfileScreen> {
                   ),
                   obscureText: true,
                   validator: (value) {
-                    if (value.length < 4) 
+                    if (value.length < 6) 
                       return "Password must be more than 6";
                   },
                 ),
